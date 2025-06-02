@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethics Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Ethics Explorer</h1>
+        <p class="subtitle">Discover Philosophy, Ethics, and Moral Concepts</p>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search for philosophers, concepts, theories...">
+                <button id="searchButton">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="philosophers">Philosophers</button>
+                <button class="filter-btn" data-filter="concepts">Concepts</button>
+                <button class="filter-btn" data-filter="theories">Theories</button>
+                <button class="filter-btn" data-filter="schools">Schools</button>
+            </div>
+        </div>
+
+        <div class="results-container">
+            <div id="searchResults"></div>
+        </div>
+
+        <div class="featured-topics">
+            <h2>Popular Topics in Ethics</h2>
+            <div class="topics-grid">
+                <div class="topic-card" data-category="concepts">
+                    <h3>What is Ethics?</h3>
+                    <p>Ethics is the study of right and wrong, guiding how people should act and treat others. It explores moral principles, values, and what it means to live a good life.</p>
+                </div>
+                <div class="topic-card" data-category="concepts">
+                    <h3>Utilitarianism</h3>
+                    <p>The ethical theory that emphasizes maximizing happiness for the greatest number of people.</p>
+                </div>
+                <div class="topic-card" data-category="philosophers">
+                    <h3>Immanuel Kant</h3>
+                    <p>German philosopher known for the categorical imperative and deontological ethics.</p>
+                </div>
+                <div class="topic-card" data-category="theories">
+                    <h3>Virtue Ethics</h3>
+                    <p>An approach focusing on moral character rather than actions or their consequences.</p>
+                </div>
+                <div class="topic-card" data-category="schools">
+                    <h3>Stoicism</h3>
+                    <p>Ancient philosophy emphasizing self-control and ethical conduct in harmony with nature.</p>
+                </div>
+                <div class="topic-card" data-category="concepts">
+                    <h3>Moral Relativism</h3>
+                    <p>The view that moral judgments are relative to particular standpoints and cultural contexts.</p>
+                </div>
+                <div class="topic-card" data-category="philosophers">
+                    <h3>Aristotle</h3>
+                    <p>Ancient Greek philosopher who developed virtue ethics and the concept of eudaimonia.</p>
+                </div>
+                <div class="topic-card" data-category="theories">
+                    <h3>Deontological Ethics</h3>
+                    <p>Ethical framework based on duty and moral rules rather than consequences.</p>
+                </div>
+                <div class="topic-card" data-category="concepts">
+                    <h3>Bioethics</h3>
+                    <p>Study of ethical issues emerging from advances in biology, medicine, and technology.</p>
+                </div>
+                <div class="topic-card" data-category="philosophers">
+                    <h3>Peter Singer</h3>
+                    <p>Contemporary philosopher known for work in animal ethics and effective altruism.</p>
+                </div>
+                <div class="topic-card" data-category="theories">
+                    <h3>Social Contract Theory</h3>
+                    <p>Theory that people's moral/political obligations depend on a contract among them to form society.</p>
+                </div>
+                <div class="topic-card" data-category="schools">
+                    <h3>Existentialism</h3>
+                    <p>Philosophical movement emphasizing individual existence, freedom, and choice.</p>
+                </div>
+                <div class="topic-card" data-category="concepts">
+                    <h3>Environmental Ethics</h3>
+                    <p>Study of moral relationships between human beings and the environment.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ethics Explorer | An Educational Resource</p>
+    </footer>
+
+    <script src="database.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
