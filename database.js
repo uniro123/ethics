@@ -162,7 +162,7 @@ const ethicsDatabase = {
             relatedConcepts: ["Intent vs Consequence", "Moral Permissibility", "Natural Law"]
         },
         {
-            name: "Ethics",
+            name: "What is Ethics?",
             category: "concepts",
             definition: "Ethics is the study of right and wrong, guiding how people should act and treat others. It explores moral principles, values, and what it means to live a good life.",
             keyThinkers: ["Socrates", "Aristotle", "Immanuel Kant", "John Stuart Mill"],
