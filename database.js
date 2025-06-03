@@ -167,9 +167,70 @@ const ethicsDatabase = {
             definition: "Ethics is the study of right and wrong, guiding how people should act and treat others. It explores moral principles, values, and what it means to live a good life.",
             keyThinkers: ["Socrates", "Aristotle", "Immanuel Kant", "John Stuart Mill"],
             relatedConcepts: ["Morality", "Moral Philosophy", "Value Theory"]
-        }
-        
-                
+        },
+        {
+            name: "Normative Ethics",
+            category: "concepts",
+            definition: "The study of ethical action that seeks to establish standards or norms for conduct—what we ought to do.",
+            keyThinkers: ["Aristotle", "Immanuel Kant", "John Stuart Mill"],
+            relatedConcepts: ["Virtue Ethics", "Deontology", "Consequentialism"]
+        },
+        {
+            name: "Meta-Ethics",
+            category: "concepts",
+            definition: "The investigation of the nature, meaning, and foundation of ethical principles and moral language.",
+            keyThinkers: ["G.E. Moore", "A.J. Ayer", "David Hume"],
+            relatedConcepts: ["Moral Realism", "Moral Anti-Realism", "Ethical Subjectivism"]
+        },
+        {
+            name: "Applied Ethics",
+            category: "concepts",
+            definition: "The application of ethical theories and principles to practical moral problems such as abortion, war, and animal rights.",
+            keyThinkers: ["Peter Singer", "Judith Jarvis Thomson"],
+            relatedConcepts: ["Bioethics", "Environmental Ethics", "Business Ethics"]
+        },
+        {
+            name: "Descriptive Ethics",
+            category: "concepts",
+            definition: "The empirical study of moral beliefs and practices of people and cultures without making normative judgments.",
+            keyThinkers: ["Ruth Benedict", "Franz Boas"],
+            relatedConcepts: ["Cultural Relativism", "Moral Diversity", "Ethical Pluralism"]
+        },
+        {
+            name: "Bioethics",
+            category: "concepts",
+            definition: "The study of ethical issues emerging from advances in biology and medicine, such as euthanasia, cloning, and genetic engineering.",
+            keyThinkers: ["Peter Singer", "Leon Kass"],
+            relatedConcepts: ["Medical Ethics", "Applied Ethics", "Autonomy"]
+        },
+        {
+            name: "Environmental Ethics",
+            category: "concepts",
+            definition: "An area of applied ethics concerned with the moral relationship between humans and the natural environment.",
+            keyThinkers: ["Aldo Leopold", "Arne Naess"],
+            relatedConcepts: ["Ecocentrism", "Sustainability", "Deep Ecology"]
+        },
+        {
+            name: "Business Ethics",
+            category: "concepts",
+            definition: "The application of ethical principles to the world of business and commerce, focusing on fairness, corporate responsibility, and transparency.",
+            keyThinkers: ["R. Edward Freeman", "Milton Friedman"],
+            relatedConcepts: ["Corporate Social Responsibility", "Utilitarianism", "Justice"]
+        },
+        {
+            name: "Medical Ethics",
+            category: "concepts",
+            definition: "A branch of bioethics focused specifically on ethical issues in medical practice and patient care, including informed consent and end-of-life decisions.",
+            keyThinkers: ["Hippocrates", "Beauchamp and Childress"],
+            relatedConcepts: ["Autonomy", "Beneficence", "Non-maleficence"]
+        },
+        {
+            name: "Professional Ethics",
+            category: "concepts",
+            definition: "Ethical standards that govern the behavior and responsibilities of professionals such as lawyers, engineers, and educators.",
+            keyThinkers: ["Michael Davis", "Deborah Johnson"],
+            relatedConcepts: ["Integrity", "Accountability", "Code of Conduct"]
+        }                                                        
         
     ],
     theories: [
