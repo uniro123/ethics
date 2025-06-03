@@ -71,7 +71,16 @@ const ethicsDatabase = {
             mainIdeas: ["Virtue Ethics Revival", "Narrative Ethics", "Tradition-based Morality"],
             description: "Scottish philosopher known for his work in ethics and political philosophy, especially the revival of Aristotelian virtue ethics.",
             keyWorks: ["After Virtue", "Whose Justice? Which Rationality?"]
+        },
+        {
+            name: "Saint Thomas Aquinas",
+            category: "philosophers",
+            period: "13th Century",
+            mainIdeas: ["Natural Law", "Virtue Ethics", "Divine Command Theory"],
+            description: "Medieval Catholic philosopher and theologian who integrated Aristotelian philosophy with Christian doctrine, emphasizing reason and natural law in moral decision-making.",
+            keyWorks: ["Summa Theologica", "Summa Contra Gentiles"]
         }
+        
         
     ],
     concepts: [
@@ -137,7 +146,30 @@ const ethicsDatabase = {
             definition: "The view that there are objective moral facts and values that exist independently of human beliefs or feelings.",
             keyThinkers: ["David Brink", "Peter Railton"],
             relatedConcepts: ["Objectivism", "Moral Facts", "Metaethics"]
+        },
+        {
+            name: "Natural Law",
+            category: "concepts",
+            definition: "A moral theory asserting that ethical principles are grounded in human nature and can be discovered through reason.",
+            keyThinkers: ["Saint Thomas Aquinas", "Cicero", "John Locke"],
+            relatedConcepts: ["Moral Order", "Human Reason", "Divine Law"]
+        },
+        {
+            name: "Doctrine of Double Effect",
+            category: "concepts",
+            definition: "A principle which states that performing a good action may be permissible even if it causes a harmful side effect, as long as the harm is not intended.",
+            keyThinkers: ["Saint Thomas Aquinas"],
+            relatedConcepts: ["Intent vs Consequence", "Moral Permissibility", "Natural Law"]
+        },
+        {
+            name: "Ethics",
+            category: "concepts",
+            definition: "Ethics is the study of right and wrong, guiding how people should act and treat others. It explores moral principles, values, and what it means to live a good life.",
+            keyThinkers: ["Socrates", "Aristotle", "Immanuel Kant", "John Stuart Mill"],
+            relatedConcepts: ["Morality", "Moral Philosophy", "Value Theory"]
         }
+        
+                
         
     ],
     theories: [
@@ -189,7 +221,14 @@ const ethicsDatabase = {
             definition: "An approach to ethics which holds that moral principles are constructed through practical reasoning rather than discovered as objective truths.",
             keyPrinciples: ["Practical Reason", "Moral Autonomy", "Justification"],
             mainProponents: ["John Rawls", "Christine Korsgaard"]
-        }
+        },
+        {
+            name: "Natural Law Theory",
+            category: "theories",
+            definition: "An ethical theory asserting that moral standards are derived from the nature and purpose of human beings, discoverable through reason and aligned with divine order.",
+            keyPrinciples: ["Moral Order", "Purpose-Driven Ethics", "Rationality"],
+            mainProponents: ["Saint Thomas Aquinas", "John Finnis"]
+        }        
         
     ],
     schools: [
